@@ -15,3 +15,20 @@ header{
 header h1{
     font-size: 48px;
 }
+
+ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(168, 113, 46);
+    border: 1px solid;
+    display: block;
+    width: 25vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+ul a:hover{
+    background-color: rgb(228, 171, 102);
+    transition: 0.3s;
+}
